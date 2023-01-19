@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/foto.jpg);
+    background-size: cover;
+    background-position: center;
+
+    height: 100vh;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+main {
+  width: 90%;
+  max-width: 800px;
+  margin: 32px auto;
+}
+main .overview {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+meal-list {
+  display: block;
+  margin-top: 32px;
+  width: 100%;
+  padding: 16px;
+}
+
+@media screen and (max-width: 550px) {
+  main .overview {
+    font-size: 18px;
+  }
+}
